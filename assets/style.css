@@ -1,0 +1,54 @@
+body {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+}
+
+/* Common CSS */
+
+.display-flex {
+    display: flex;
+}
+
+.primary-btn {
+    border-radius: 6px;
+    padding: 10px 20px;
+    background: rgb(254, 163, 1);
+    font-weight: 600;
+    color: white;
+    border: 0px;
+}
+
+
+/* Header Styles Start */
+.nav-bar {
+    align-items: center;
+    justify-content: space-between;
+    width: 1160px;
+    margin: auto;
+}
+
+.logo {
+    width: 50px;
+}
+
+.brand {
+    align-items: center;
+    gap: 10px;
+}
+
+.brand>h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.nav-itmes>li {
+    list-style: none;
+    margin-right: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/* Header Styles End */
