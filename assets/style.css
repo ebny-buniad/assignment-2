@@ -203,7 +203,7 @@ a {
     color: rgb(135, 0, 255);
 }
 
-.arrow-icon-box{
+.arrow-icon-box {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -211,8 +211,8 @@ a {
     padding-bottom: 30px;
 }
 
-.arrow-icon{
-    
+.arrow-icon {
+
     display: flex;
     background-color: orange;
     height: 60px;
@@ -224,6 +224,7 @@ a {
     border: 0px;
     cursor: pointer;
 }
+
 /* Curriculum section end */
 
 
@@ -289,6 +290,17 @@ a {
         max-width: 100%;
     }
 
+    /* Curriculum section */
+
+    .curriculum-cards {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .arrow-icon-box {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 1400px) {}
