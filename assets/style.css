@@ -148,7 +148,6 @@ a {
 /* Curriculum section start */
 .curriculum-section {
     background-image: url('./images/bg.png');
-    background-repeat: no-repeat;
     padding: 10px;
 }
 
