@@ -97,6 +97,7 @@ li>a {
 }
 
 .hero-title {
+    width: 550px;
     font-size: 56px;
     font-weight: 700;
     line-height: 61px;
@@ -183,15 +184,18 @@ li>a {
 
     .hero-content , .hero-title{
         text-align: center;
+        width: 100%;
     }
     .hero-kids{
         padding-top: 30px;
         max-width: 100%;
     }
+    
 }
 
-@media screen and (min-width: 577px) and (max-width: 1400px) {}
+@media screen and (min-width: 577px) and (max-width: 1400px) {
 
+}
 
 /* Header End */
 
