@@ -149,6 +149,7 @@ a {
 .curriculum-section {
     background-image: url('./images/bg.png');
     background-repeat: no-repeat;
+    padding: 10px;
 }
 
 .curriculum-cards {
@@ -231,6 +232,7 @@ a {
 
 .stories-section {
     background: url('./images/bg.png'), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    padding: 10px;
     padding-bottom: 40px;
 }
 
@@ -283,11 +285,11 @@ a {
 
 }
 
-.stories-content{
+.stories-content {
     padding: 20px 0px 0px 20px;
 }
 
-.view-all-btn{
+.view-all-btn {
     margin: auto;
     display: block;
     margin-top: 50px;
@@ -297,6 +299,7 @@ a {
     padding: 20px 50px;
     border-radius: 8px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /* Our stories section end */
@@ -382,6 +385,31 @@ a {
     }
 
     /* Curriculum section end */
+
+    /* Our stories section start */
+
+    .stories-items {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stories-card-1 {
+        display: none;
+    }
+
+    .date {
+        left: 10px;
+        top: 83.5px;
+        border-radius: 30px;
+        padding: 0px 20px;
+        font-size: 10px;
+    }
+
+    .stories-content {
+        padding: 10px 0px 0px 10px;
+    }
+
+    /* Our stories section end */
 
 
 
