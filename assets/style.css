@@ -18,6 +18,9 @@ body {
     border: 0px;
 }
 
+li>a {
+    text-decoration: none;
+}
 
 /* Header Styles Start */
 .nav-bar {
@@ -51,4 +54,66 @@ body {
     line-height: 30px;
 }
 
+.item-1 {
+    color: orange;
+}
+
+.item-2 {
+    color: skyblue;
+}
+
+.item-3 {
+    color: rgb(5, 212, 223);
+}
+
+.item-4 {
+    color: rgb(93, 88, 239);
+}
+
 /* Header Styles End */
+
+
+
+.bar-icon {
+    display: none;
+}
+
+
+
+/* Responsive CSS for the project Start */
+
+/* Header Start */
+@media screen and (max-width: 576px) {
+    .nav-bar {
+        width: 100%;
+        border-bottom: 1px solid rgb(254, 163, 1);
+        padding-bottom: 5px;
+    }
+
+    .logo {
+        width: 40px;
+    }
+
+    .bar-icon {
+        display: block;
+        font-size: 25px;
+        color: rgb(49, 49, 49);
+    }
+
+    .brand>h1 {
+        display: none;
+    }
+
+    ul>li,
+    .primary-btn {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 1400px) {}
+
+
+/* Header End */
+
+/* Responsive CSS for the project End */
