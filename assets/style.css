@@ -149,6 +149,8 @@ a {
 .curriculum-section {
     background-image: url('./images/bg.png');
     padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .curriculum-cards {
@@ -231,7 +233,9 @@ a {
 
 .stories-section {
     background: url('./images/bg.png'), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    background-repeat: no-repeat;
     padding: 10px;
+    background-position: center;
     padding-bottom: 40px;
 }
 
